@@ -1,0 +1,21 @@
+.rodape{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    gap: 2px;
+    border-top: solid #00000027 0.3px;
+    border-radius: 10px 10px 0px 0px;
+    font-family: "Dancing Script", cursive;
+    font-weight: bolder;
+
+}
+
+.rodape div:first-child{
+    align-self: center;
+}
+
+#coracao{
+    width: 25px;
+}
+

@@ -1,0 +1,19 @@
+.cabecalho{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1em;
+    border-bottom: solid #00000017 5px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.11);
+}
+
+.image-icon-header img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.anaepaulo{
+    align-self: center;
+    font-family: "Dancing Script", cursive;
+}
