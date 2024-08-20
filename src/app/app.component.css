@@ -1,4 +1,8 @@
 .home{
-    height: 100vh;
-    padding: 10px;
+    margin-top: 5em;
+    padding: 50px 10px 50px 10px;
+}
+
+.app-cabecalho{
+    min-height: 100%;
 }

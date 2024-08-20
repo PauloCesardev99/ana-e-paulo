@@ -1,12 +1,13 @@
 <section>
-    <h1 id="sobre-nos">Sobre nós</h1>
+    <h1 class="titulos">Sobre nós</h1>
     <!---Sobre nós-->
     <div class="main-article">
          <!---Sobre o Paulo-->
-        <article>
+        <article data-aos="fade-right"
+        data-aos-duration="2900">
             <!---iMAGEM DO PAULO-->
-            <div>
-                <img src="" alt="foto-do-Paulo">
+            <div class="imagens-nos" id="foto-paulo">
+                <img src="imgs/imgs-ana-e-paulo/eu.jpg" alt="foto-do-Paulo">
             </div>
     
             <!----NOME do Paulo-->
@@ -29,40 +30,37 @@
             <div>
                 <h2>Cidade: {{paulo.cidade}}</h2>
             </div>
-    
         </article>
 
          <!---Sobre a ana-->
-        <article>
-
-       
-
+        <article data-aos="fade-left"
+        data-aos-duration="2900">
             <!---iMAGEM Da Ana-->
-            <div>
-               <img src="" alt="Iamgem-da Ana">
+            <div  class="imagens-nos">
+                <img src="imgs/imgs-ana-e-paulo/ana.jpg" alt="imagem-da-Ana">
            </div>
        
            <!----NOME da Ana-->
            <div>
-               <h1>Nome: </h1>
+               <h1>Nome: {{ana.nome}} </h1>
            </div>
        
            <!---Sobre-->
            <div>
-               <h2>Sobre:</h2>
+               <h2>Sobre: {{ana.sobre}}</h2>
            </div>
        
            <!----Idade-->
            <div>
-               <h2>Idade:</h2>
+               <h2>Idade: {{ana.idade}} anos  </h2>
            </div>
        
            <!---Cidade-->
        
            <div>
-               <h2>Cidade:</h2>
+               <h2>Cidade:  {{ana.cidade}}  </h2>
            </div>
-       
+
         </article>
     </div> 
 </section>

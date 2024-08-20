@@ -7,18 +7,21 @@ import { Component } from '@angular/core';
 })
 export class SobreNosComponent {
 
+  
   paulo = {
-    nome: "Paulo",
+    nome: "Paulo César Brito Camilo",
     sobre: "Programador Front End",
     idade: 25,
     cidade: "Tucuruvi-SP"
   }
 
   ana = {
-    nome: "Ana",
+    nome: "Ana Beatriz Pires Rodrigues",
     sobre: "Gestora de Ti",
     idade: 22,
     cidade: "Jardim Danfer-SP"
   }
+
+
 
 }

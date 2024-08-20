@@ -1,6 +1,6 @@
-#sobre-nos{
-    text-align: center;
-}
+
+
+/* */
 
 .main-article{
     margin-top: 10px;
@@ -10,13 +10,52 @@
     gap: 50px;
 }
 
+/* Cards Paulo e ana */
+
 .main-article article:first-child, .main-article article:last-child {
     display: flex;
     flex-direction: column;
     gap: 25px;
-   width: 450px;
-   padding: 1em;
+   width: 350px;
+   padding: 3.5em 1em 3.5em 1em;
    border: solid 1px rgba(0, 0, 0, 0.342);
    border-radius: 10px;
    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.137);
+   color: rgba(128, 128, 128, 0.87);
+   font-size: 0.8em;
+   font-family: 'roboto', 'arial';
 }
+
+.main-article article:first-child{
+    border-color: rgba(0, 0, 255, 0.39);
+    box-shadow: 5px 5px 10px rgba(49, 13, 206, 0.644)
+}
+
+.main-article article:last-child{
+    border-color: rgba(240, 26, 211, 0.39);
+    box-shadow: 5px 5px 10px rgba(185, 14, 99, 0.644)
+}
+
+/* Imagens nossas */
+
+.imagens-nos{
+    text-align: center;
+}
+
+.imagens-nos img{
+    width: 30%;
+    border-radius: 50%;
+    border: solid 1px #000000bb;
+    box-shadow: 1px 1px  5px #00000031;
+}
+
+#foto-paulo  img{
+    border-color: rgba(0, 0, 255, 0.39);
+    box-shadow: 5px 5px 10px rgba(49, 13, 206, 0.644)
+}
+
+.imagens-nos img{
+    border-color: rgba(240, 26, 211, 0.39);
+    box-shadow: 5px 5px 10px rgba(185, 14, 99, 0.644)
+}
+

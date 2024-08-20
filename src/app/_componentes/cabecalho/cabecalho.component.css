@@ -5,6 +5,14 @@
     padding: 1em;
     border-bottom: solid #00000017 5px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.11);
+
+
+
+    position: fixed; /* Fixa o cabeçalho no topo */
+    top: 0;          /* Posiciona no topo da página */
+    width: 100%;     /* O cabeçalho ocupa toda a largura da tela */
+    background-color: white; /* Defina a cor de fundo, se necessário */
+    z-index: 1000;   /* Garante que o cabeçalho fique acima de outros elementos */
 }
 
 .image-icon-header img{
