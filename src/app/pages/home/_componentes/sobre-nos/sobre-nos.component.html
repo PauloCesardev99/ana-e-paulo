@@ -2,66 +2,36 @@
     <h1 class="titulos">Sobre nós</h1>
     <!---Sobre nós-->
     <div class="main-article">
-         <!---Sobre o Paulo-->
-        <article data-aos="fade-right"
-        data-aos-duration="2900">
-            <!---iMAGEM DO PAULO-->
-            <div class="imagens-nos" id="foto-paulo">
-                <img src="imgs/imgs-ana-e-paulo/eu.jpg" alt="foto-do-Paulo">
-            </div>
-    
-            <!----NOME do Paulo-->
-            <div>
-                <h1>Nome: {{paulo.nome}} </h1>
-            </div>
-    
-            <!---Sobre-->
-            <div>
-                <h2>Sobre: {{paulo.sobre}}</h2>
-            </div>
-    
-            <!----Idade-->
-            <div>
-                <h2>Idade: {{paulo.idade}} anos</h2>
-            </div>
-    
-            <!---Cidade-->
-    
-            <div>
-                <h2>Cidade: {{paulo.cidade}}</h2>
-            </div>
-        </article>
-
-         <!---Sobre a ana-->
-        <article data-aos="fade-left"
-        data-aos-duration="2900">
-            <!---iMAGEM Da Ana-->
-            <div  class="imagens-nos">
-                <img src="imgs/imgs-ana-e-paulo/ana.jpg" alt="imagem-da-Ana">
-           </div>
-       
-           <!----NOME da Ana-->
-           <div>
-               <h1>Nome: {{ana.nome}} </h1>
-           </div>
-       
-           <!---Sobre-->
-           <div>
-               <h2>Sobre: {{ana.sobre}}</h2>
-           </div>
-       
-           <!----Idade-->
-           <div>
-               <h2>Idade: {{ana.idade}} anos  </h2>
-           </div>
-       
-           <!---Cidade-->
-       
-           <div>
-               <h2>Cidade:  {{ana.cidade}}  </h2>
-           </div>
-
-        </article>
+        <!---Card Paulo-->
+      <app-card-sobre-nos
+      [imagem]="paulo.img"
+       [nome]="paulo.nome"
+       [sobre]="paulo.sobre"
+       [idade]="paulo.idade"
+       [cidade]="paulo.cidade"
+       [border-color]="paulo.borderColor"
+       [boxShadow]="paulo.boxShadow"
+       [borderColorImg]="paulo.borderColorImg"
+       [borderColorShadowImg]="paulo.borderColorShadowImg"
+       data-aos="fade-right"
+       data-aos-duration="2900"
+      >
+      </app-card-sobre-nos>
+      <!---Card Ana-->
+      <app-card-sobre-nos 
+      data-aos="fade-left"
+      data-aos-duration="2900"
+      [imagem]="ana.img"
+       [nome]="ana.nome"
+       [sobre]="ana.sobre"
+       [idade]="ana.idade"
+       [cidade]="ana.cidade"
+       [border-color]="ana.borderColor"
+       [boxShadow]="ana.boxShadow"
+       [borderColorImg]="ana.borderColorImg"
+       [borderColorShadowImg]="paulo.borderColorShadowImg"
+      >
+      </app-card-sobre-nos>
     </div> 
 </section>
 

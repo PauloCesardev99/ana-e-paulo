@@ -9,6 +9,7 @@ import { ComponentesHomeModule } from './pages/home/_modulo-home/componentes-hom
 
 
 
+
 @NgModule({
   // aqui ficaram os componentes principais da aplicação
   declarations: [

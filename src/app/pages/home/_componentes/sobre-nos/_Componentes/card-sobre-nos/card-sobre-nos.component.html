@@ -1,0 +1,27 @@
+<article class="card" [style.borderColor]="border_color" [style.boxShadow]="boxShadow">
+    <!---iMAGEM Nossa de forma dinamica-->
+    <div class="imagens-nos"[style.borderColor]="borderColorImg" [style]="borderColorShadowImg">
+        <img src= {{imagem}} alt="erro">
+    </div>
+
+    <!----NOME -->
+    <div>
+        <h1>Nome: {{nome}}</h1>
+    </div>
+
+    <!---Sobre-->
+    <div>
+        <h2>Sobre: {{sobre}} </h2>
+    </div>
+
+    <!----Idade-->
+    <div>
+        <h2>Idade: {{idade}}  anos</h2>
+    </div>
+
+    <!---Cidade-->
+
+    <div>
+        <h2>Cidade: {{cidade}} </h2>
+    </div>
+</article>
