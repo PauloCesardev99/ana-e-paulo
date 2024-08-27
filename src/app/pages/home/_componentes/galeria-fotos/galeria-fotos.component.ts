@@ -6,6 +6,14 @@ import { Component } from '@angular/core';
   styleUrl: './galeria-fotos.component.css'
 })
 export class GaleriaFotosComponent {
+
+  abrir: boolean = false;
+
+  abrirGaleria(): void{
+    this.abrir = !this.abrir
+  }
+
+
   fotos = [{
     imagem: 'imgs/icon-header.jpg',
     lugar: 'Longe do Mar'

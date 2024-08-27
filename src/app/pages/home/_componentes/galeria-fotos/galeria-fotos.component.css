@@ -5,3 +5,12 @@
     gap: 50px;
     margin-top: 1em;
 }
+
+button{
+    padding: 1em;
+    border-radius: 10px;
+    font-family: "Dancing Script", cursive;
+    background-color:rgba(77, 29, 122, 0.603) ;
+    box-shadow: 5px 5px 5px  rgb(77, 29, 122);
+    color: white;
+}
