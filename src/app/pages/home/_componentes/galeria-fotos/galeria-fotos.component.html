@@ -1,0 +1,14 @@
+
+<!----Galeria de fotos-->
+<section style="margin-top: 10px;">
+ <h1 class="titulos"> Galeria </h1>
+<section class="sessao-galeria">
+    <app-card-fotos *ngFor="let foto of fotos" 
+    [img]="foto.imagem"
+    [lugar]="foto.lugar"
+    > 
+    </app-card-fotos>
+</section>
+
+
+</section>
